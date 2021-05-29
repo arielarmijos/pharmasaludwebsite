@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css" >
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+
+
+    <title>Farmacia Villa España Madrid</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row align-items-stretch justify-content-between">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #25a585">
+                    <a class="navbar-brand" href="#">FARMACIA PHARMA SALUD</a>
+                    
+                   
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <img src="img/cart.jpeg" class="nav-link dropdown-toggle img-fluid" height="70px"
+                                    width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"></img>
+                                    
+                                <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                                    <table id="lista-carrito" class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                                    <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                                        Compra</a>
+                                </div>
+                            </li>
+                            <a class="text-red">Click sobre el carrito  para ver tus productos</a>
+                        </ul>
+                    </div>
+                    <a class="text-red" href="#">Escribenos al 0963843679 si no vez el producto que buscas</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h1 class="pharmasalud text-red text-center">Catalogo de Productos</h1>
+            
+        </div>
+
+        <div class="container" id="lista-productos">
+           
+
+           <!--Mascarillas-->
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Mascarilla</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/mascarilla_kn95.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">0.60</span></h1>
+                        <p class="card-text">KN95 </p> 
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Mascarilla</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/mascarilla_panuelo.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">0.20</span></h1>
+                        <p class="card-text">Pañuelo </p> 
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="2">Agregar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Mascarilla</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/mascarilla_visor.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">1.90</span></h1>
+                        <p class="card-text">Visor</p> 
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="3">Agregar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Mascarilla</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/mascarilla_oxigeno.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">1.90</span></h1>
+                        <p class="card-text">Oxigeno Adulto </p> 
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="4">Agregar</a>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Mascarilla</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/mascarilla_nebulizador1.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">1.95</span></h1>
+                        <p class="card-text">Nibulizar Adulto</p> 
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="5">Agregar</a>
+                    </div>
+                </div>
+
+            </div>
+ <!--Anteseptico-->
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Antiséptico</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/alcohol_chico.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">0.75</span></h1>
+                        <p class="card-text">Alcohol 100ml </p> 
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="6">Agregar</a>
+                    </div>
+                </div>
+
+               
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Antiséptico</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/alcohol_chico_atomizador.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">1.90</span></h1>
+                        <p class="card-text">Alcohol Spray 100ml</p> 
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="8">Agregar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Antiséptico</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/alcohol_grande.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">3.90</span></h1>
+                        <p class="card-text">Alcohol 1000ml </p> 
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="7">Agregar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Antiséptico</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/agua_oxigenada.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">0.90</span></h1>
+                        <p class="card-text">Agua Oxigenada 100ml</p> 
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="9">Agregar</a>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Antiséptico</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/agua_gular.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">0.60</span></h1>
+                        <p class="card-text">Agua Goulard</p> 
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="10">Agregar</a>
+                    </div>
+                </div>
+
+            </div>
+
+          <!--MEDICINAS DOLOR GENERAL-->
+          <div class="card-deck mb-3 text-center">
+                
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="descripcion">Tos</h4>
+                </div>
+                <div class="card-body">
+                    <img src="img/Ambrozol.png" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$<span class="">1.35</span></h1>
+                    <p class="descripcion-mayuscula">AMBROXOL R JBE.15mg/5ml</p> 
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="11">Agregar</a>
+                </div>
+            </div>
+
+           
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="descripcion">Vias Urinarias</h4>
+                </div>
+                <div class="card-body">
+                    <img src="img/ampliurina_forte.jpg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">0.25</span></h1>
+                    <p class="descripcion-mayuscula">AMPLIURINA FORTE</p> 
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="12">Agregar</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="descripcion">Malestar General</h4>
+                </div>
+                <div class="card-body">
+                    <img src="img/analgan.jpg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$<span class="">0.30</span></h1>
+                    <p class="descripcion-mayuscula">ANALGAN PARACETAMOL 1 G </p> 
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="13">Agregar</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="descripcion">Fiebre</h4>
+                </div>
+                <div class="card-body">
+                    <img src="img/bacterol_forte.jpg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">6.25</span></h1>
+                    <p class="descripcion-mayuscula">BACTEROL FORTE JBE. 100ml</p> 
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="14">Agregar</a>
+                </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="descripcion">Fiebre</h4>
+                </div>
+                <div class="card-body">
+                    <img src="img/bacterol_tab.jpg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$<span class="">0.40</span></h1>
+                    <p class="descripcion-mayuscula">BACTEROL FORTE TAB. X 10</p> 
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="15">Agregar</a>
+                </div>
+            </div>
+        </div>   
+
+
+         <!--MEDICINAS CIVID-->
+         <div class="card-deck mb-3 text-center">
+                
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="descripcion">Vitaminas</h4>
+                </div>
+                <div class="card-body">
+                    <img src="img/redoxon_forte_efervescente.png" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$<span class="">4.25</span></h1>
+                    <p class="descripcion-mayuscula">REDOXON FORTE 2GR</p> 
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="11">Agregar</a>
+                </div>
+            </div>
+
+           
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="descripcion">Anti Parasitario</h4>
+                </div>
+                <div class="card-body">
+                    <img src="img/iverrmax.png" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">2.00</span></h1>
+                    <p class="descripcion-mayuscula">IVERMECTINA 6MGX4 TAB.</p> 
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="12">Agregar</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="descripcion">Vitaminas</h4>
+                </div>
+                <div class="card-body">
+                    <img src="img/bdex.png" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$<span class="">3.90</span></h1>
+                    <p class="descripcion-mayuscula">BDEX SUERO CON EQUIPO</p> 
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="13">Agregar</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="descripcion">Vitaminas</h4>
+                </div>
+                <div class="card-body">
+                    <img src="img/Cemin.jpeg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">0.60</span></h1>
+                    <p class="descripcion-mayuscula">CEMIN AMP. 5ML</p> 
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="14">Agregar</a>
+                </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="descripcion">Eleva Defensas</h4>
+                </div>
+                <div class="card-body">
+                    <img src="img/Inmunolive.png" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$<span class="">7.50</span></h1>
+                    <p class="descripcion-mayuscula">INMUNO LIVE</p> 
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="15">Agregar</a>
+                </div>
+            </div>
+        </div>   
+
+
+  <!--MEDICINAS DOLOR GENERAL-->
+  <div class="card-deck mb-3 text-center">
+                
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DOLOR MUSCULAR</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/ibuprofen_400.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">1.35</span></h1>
+            <p class="descripcion-mayuscula">IBUPROFENO MK 400mg TAB.</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="16">Agregar</a>
+        </div>
+    </div>
+
+   
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DOLOR MUSCULAR</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/ibuprofen_600.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">0.25</span></h1>
+            <p class="descripcion-mayuscula">IBUPROFENO MK 600mg TAB.</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="17">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DOLOR MUSCULAR</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/Buprex-Flash-400mg_life.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.40</span></h1>
+            <p class="descripcion-mayuscula">BUPREX FLASH 400mg</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="18">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DOLOR MUSCULAR</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/buprex_flash_600_life.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">0.60</span></h1>
+            <p class="descripcion-mayuscula">BUPREX FLASH 600mg</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="19">Agregar</a>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DOLOR MUSCULAR</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/buprex_flash_800mg_life.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.75</span></h1>
+            <p class="descripcion-mayuscula">BUPREX FLASH 800mg</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="20">Agregar</a>
+        </div>
+    </div>
+
+
+<!--MEDICINAS DOLOR MUSCULAR-->
+<div class="card-deck mb-3 text-center">
+                
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DOLOR MUSCULAR</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/apronax-tabletas.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.30</span></h1>
+            <p class="descripcion-mayuscula">APRONAX 550 MG </p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="21">Agregar</a>
+        </div>
+    </div>
+
+   
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DOLOR MUELA</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/molarex.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">0.50</span></h1>
+            <p class="descripcion-mayuscula">MOLAR-EX</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="22">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">COLICO MESTRUAL</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/finalin_fem.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.25</span></h1>
+            <p class="descripcion-mayuscula">FINALIN FEM/p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="23">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">FEMEN FORTE</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/femen_forte.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">0.30</span></h1>
+            <p class="descripcion-mayuscula">FEMEN FORTE</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="24">Agregar</a>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DOLOR MUSCULAR</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/buprex_flash_800mg_life.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.75</span></h1>
+            <p class="descripcion-mayuscula">BUPREX FLASH 800mg</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="25">Agregar</a>
+        </div>
+    </div>
+
+<!--MEDICINAS CUIDADO INTIMO-->
+<div class="card-deck mb-3 text-center">
+                
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">CUIDADO INTIMO</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/gyno-canesten-3-crema.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">5.50</span></h1>
+            <p class="descripcion-mayuscula">GYNO-CANESTEN CREMA 20mg </p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="26">Agregar</a>
+        </div>
+    </div>
+
+   
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">CUIDADO INTIMO</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/gyno-canesten-ovulos.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">5.75</span></h1>
+            <p class="descripcion-mayuscula">GYNO-CANESTEN OVULOS X 3 </p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="27">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">HONGOS</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">3.30</span></h1>
+            <p class="descripcion-mayuscula">CANESTEN CREMA 20g</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="23">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">PRUEBA EMBARAZO</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/euro_test.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">3.00</span></h1>
+            <p class="descripcion-mayuscula">EUROTEST PLUS</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="24">Agregar</a>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">INFEXION</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/dexametazona.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.65</span></h1>
+            <p class="descripcion-mayuscula">DEXAMETASONA GENFAR 8MG</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="25">Agregar</a>
+        </div>
+    </div>
+
+
+
+<!--MEDICINAS CUIDADO INTIMO-->
+<div class="card-deck mb-3 text-center">
+                
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">ALERGIA</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/loratadina.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.10</span></h1>
+            <p class="descripcion-mayuscula">LORATADINA 10mg </p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="26">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">TOS/GRIPE</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/mucosolvan.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">4.45</span></h1>
+            <p class="descripcion-mayuscula">MUCOSOLVAN JBE. 120ML PEDIATRICO</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="27">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">TOS/GRIPE</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/lemonflu.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.17</span></h1>
+            <p class="descripcion-mayuscula">LEMONFLU TAB.180</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="28">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">VITAMINA</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/vitamina_c.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">1.00</span></h1>
+            <p class="descripcion-mayuscula">VIT. C LA SANTE 500MG NARANJA </p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="29">Agregar</a>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion"> HONGOS</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/fluconazol.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.65</span></h1>
+            <p class="descripcion-mayuscula">FLUCONAZOL R 150g X 6 CAP</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="30">Agregar</a>
+        </div>
+    </div>
+
+
+<!--MEDICINAS OJOS-->
+<div class="card-deck mb-3 text-center">
+                
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">MOLESTIAS OCULARES</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/visine-extra.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">2.85</span></h1>
+            <p class="descripcion-mayuscula">VISINA EXTRA 15 ML </p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="31">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">MOLESTIAS OCULARES</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/visine_original.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">2.30</span></h1>
+            <p class="descripcion-mayuscula">VISINA OFT.15 ML</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="32">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">MOLESTIAS OCULARES</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/decadron_gotas_oftalmica.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">4.95</span></h1>
+            <p class="descripcion-mayuscula">DECADRON SOL-OFT 5ML</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="33">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">NEBULIZAR</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/broxolam_ampolla_acromax.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">1.00</span></h1>
+            <p class="descripcion-mayuscula">BROXOLAN AMP AMBROXOL CLORHIDRATO 15mg</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="34">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">NEBULIZAR</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/fluicetil.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">2.00</span></h1>
+            <p class="descripcion-mayuscula">FLUICETIL SBRE. 600MG</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="59">Agregar</a>
+        </div>
+    </div>
+</div>   
+    
+
+
+
+<!--MEDICINAS ALERGIAS-->
+<div class="card-deck mb-3 text-center">
+                
+    <div class="card mb-4 shadow-sm">   
+        <div class="card-header">
+            <h4 class="descripcion">ALERGIAS</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/alercet_d.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.65</span></h1>
+            <p class="descripcion-mayuscula">ALERCET D</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="36">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">ALERGIAS</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/fluzetrin.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">2.30</span></h1>
+            <p class="descripcion-mayuscula">FLUZETRIN TABx10 </p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="37">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">TOS</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/ambroxol_jarabe_30mg.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">2.25</span></h1>
+            <p class="descripcion-mayuscula">AMBROXOL 30MG/5ML</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="38">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">PRESION ALTERIAL</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/losartan-potasico-50-mg.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">0.15</span></h1>
+            <p class="descripcion-mayuscula">LOSARTAN 50mg TAB.</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="39">Agregar</a>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion"> COLESTEROL</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/simvastatina.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.30</span></h1>
+            <p class="descripcion-mayuscula">SIMVASTATINA</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="40">Agregar</a>
+        </div>
+    </div>
+
+
+
+<!--MEDICINAS DOLOR CABEZA-->
+<div class="card-deck mb-3 text-center">
+                
+    <div class="card mb-4 shadow-sm">   
+        <div class="card-header">
+            <h4 class="descripcion">FIEBRE</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/buprex_forte_suspension.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">5.70</span></h1>
+            <p class="descripcion-mayuscula">BUPREX FORTE 120ML JBE.</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="41">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DOLOR CABEZA</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/buprex-migra.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">0.50</span></h1>
+            <p class="descripcion-mayuscula">BUPREX MIGRA x20</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="42">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DOLOR CABEZA</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/finalin_forte.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.27</span></h1>
+            <p class="descripcion-mayuscula">FINALIN FORTE TAB.</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="43">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">COLICO</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/buscapina.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">0.45</span></h1>
+            <p class="descripcion-mayuscula">BUSCAPINA COMPUESTA</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="44">Agregar</a>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion"> DIARREA</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/diaren.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.25</span></h1>
+            <p class="descripcion-mayuscula">DIAREN</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="45">Agregar</a>
+        </div>
+    </div>
+
+
+<!--MEDICINAS DOLOR CABEZA-->
+<div class="card-deck mb-3 text-center">
+                
+    <div class="card mb-4 shadow-sm">   
+        <div class="card-header">
+            <h4 class="descripcion">CUIDADO INTIMO</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/acromona_ovulos.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.40</span></h1>
+            <p class="descripcion-mayuscula">ACROMONA  OVULOS </p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="46">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">CARDIO</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/aspirina_niคos.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">0.15</span></h1>
+            <p class="descripcion-mayuscula">ASPIRINA NIÑOS 100 MG</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="47">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">GOLPES</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/linimento_olimpico.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">2.95</span></h1>
+            <p class="descripcion-mayuscula">LINIMENTO OLIMPICO</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="48">Agregar</a>
+        </div>
+    </div>
+
+
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">GOLPES</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/diclofenaco_gel.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">5.70</span></h1>
+            <p class="descripcion-mayuscula">DICLOFENACO GEL AL 1% MK</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="49">Agregar</a>
+        </div>
+    </div>
+
+
+    
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">GOLPES</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/mentol_chino.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.70</span></h1>
+            <p class="descripcion-mayuscula">MENTOL CHINO</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="50">Agregar</a>
+        </div>
+    </div>
+
+
+
+<!--MEDICINAS DIGSTION-->
+<div class="card-deck mb-3 text-center">
+                
+    <div class="card mb-4 shadow-sm">   
+        <div class="card-header">
+            <h4 class="descripcion">DIGESTION</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/digestopan_forte.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.45</span></h1>
+            <p class="descripcion-mayuscula">DIGESTOTAL FORTE</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="51">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DIGESTION</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/alevian_duo.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">1.00</span></h1>
+            <p class="descripcion-mayuscula">ALEVIAN DUO CAPS.100MG</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="52">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">DIGESTION</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/pankreoflat.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">0.40</span></h1>
+            <p class="descripcion-mayuscula">PANKREOFLAT</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="53">Agregar</a>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">GASTRITIS</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/ulcozol_rapid_20.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">1.50</span></h1>
+            <p class="descripcion-mayuscula">ULCOZOL RAPID 20</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="54">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">FLORA BACTNA</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/Enterogermina_5ml.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">1.00</span></h1>
+            <p class="descripcion-mayuscula">ENTEROGERMINA AMP</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="55">Agregar</a>
+        </div>
+    </div>
+</div>   
+
+
+
+
+
+<!--MEDICINAS MOSQUITOS-->
+<div class="card-deck mb-3 text-center">
+                
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">INFECCIÓN</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/amoxicilina_acidoclavulanico_labovida.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">0.40</span></h1>
+            <p class="descripcion-mayuscula">AMOXICILINA + ACDO.CLAVULANICO</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="56">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">ANALGESICO</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/zaldiar.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">0.40</span></h1>
+            <p class="descripcion-mayuscula">ZALDIAR X20</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="61">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">MOSQUITOS</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/detan_peq.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">2.00</span></h1>
+            <p class="descripcion-mayuscula">DETAN 60ML</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="57">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">ANTI MOSQUITOS</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/detan_ninos.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">3.00</span></h1>
+            <p class="descripcion-mayuscula">DETAN INFANTIL 120ML</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="58">Agregar</a>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">HONGOS</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/fungirex_polvo_chico.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">2.00</span></h1>
+            <p class="descripcion-mayuscula">FUNGIREX POLVO CHICO </p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="59">Agregar</a>
+        </div>
+    </div>
+
+</div>   
+
+
+<!--MEDICINAS DOLOR GUESOS-->
+<div class="card-deck mb-3 text-center">
+                
+  <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">ULCERAS</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/cytotec.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">5.00</span></h1>
+            <p class="descripcion-mayuscula">CYTOTEC 200MG</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="57">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion">MALESTAR GARGANTA</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/oralsept.png" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">0.10</span></h1>
+            <p class="descripcion-mayuscula">ORALSEPT TAB.MASTCBLE.</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="58">Agregar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="descripcion"> BEBES</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/bepanthen.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">7.90</span></h1>
+            <p class="descripcion-mayuscula">BEPANTHENE 30 GR</p> 
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="35">Agregar</a>
+        </div>
+    </div>
+    
+</div>   
+
+
+
+
+
+
+        </div>
+    </main>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/pedido.js"></script>
+
+</body>
+
+</html>
